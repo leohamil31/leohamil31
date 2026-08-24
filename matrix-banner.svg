@@ -1,0 +1,900 @@
+<svg width="900" height="250" viewBox="0 0 900 250" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#020a04"/>
+      <stop offset="100%" stop-color="#03140a"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#00ff88" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#00ff88" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="textGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <clipPath id="clip">
+      <rect x="0" y="0" width="900" height="250" rx="14" ry="14"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#clip)">
+    <rect x="0" y="0" width="900" height="250" fill="url(#bgGrad)"/>
+    <rect x="0" y="0" width="900" height="250" fill="url(#glow)"/>
+
+  <g font-family="Consolas, Menlo, monospace" font-size="16" fill="#00ff6a" opacity="0.5">
+    <text x="10.0" y="0" text-anchor="middle">
+      <tspan x="10.0" dy="0" fill="#00ff6a">0</tspan>
+      <tspan x="10.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="10.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="10.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="10.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="10.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="10.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="10.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="10.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="10.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="10.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="10.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="10.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="10.0" dy="16" fill="#c8ffe0">0</tspan>
+    </text>
+    <animateTransform attributeName="transform" type="translate" from="0,-224" to="0,282" dur="6.38s" begin="-5.85s" repeatCount="indefinite"/>
+  </g>
+  <g font-family="Consolas, Menlo, monospace" font-size="16" fill="#00ff6a" opacity="0.83">
+    <text x="30.0" y="0" text-anchor="middle">
+      <tspan x="30.0" dy="0" fill="#00ff6a">0</tspan>
+      <tspan x="30.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="30.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="30.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="30.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="30.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="30.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="30.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="30.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="30.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="30.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="30.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="30.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="30.0" dy="16" fill="#c8ffe0">1</tspan>
+    </text>
+    <animateTransform attributeName="transform" type="translate" from="0,-224" to="0,282" dur="5.52s" begin="-4.33s" repeatCount="indefinite"/>
+  </g>
+  <g font-family="Consolas, Menlo, monospace" font-size="16" fill="#00ff6a" opacity="0.64">
+    <text x="50.0" y="0" text-anchor="middle">
+      <tspan x="50.0" dy="0" fill="#00ff6a">1</tspan>
+      <tspan x="50.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="50.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="50.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="50.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="50.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="50.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="50.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="50.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="50.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="50.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="50.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="50.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="50.0" dy="16" fill="#c8ffe0">1</tspan>
+    </text>
+    <animateTransform attributeName="transform" type="translate" from="0,-224" to="0,282" dur="7.13s" begin="-1.62s" repeatCount="indefinite"/>
+  </g>
+  <g font-family="Consolas, Menlo, monospace" font-size="16" fill="#00ff6a" opacity="0.44">
+    <text x="70.0" y="0" text-anchor="middle">
+      <tspan x="70.0" dy="0" fill="#00ff6a">1</tspan>
+      <tspan x="70.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="70.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="70.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="70.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="70.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="70.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="70.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="70.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="70.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="70.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="70.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="70.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="70.0" dy="16" fill="#c8ffe0">0</tspan>
+    </text>
+    <animateTransform attributeName="transform" type="translate" from="0,-224" to="0,282" dur="5.54s" begin="-1.0s" repeatCount="indefinite"/>
+  </g>
+  <g font-family="Consolas, Menlo, monospace" font-size="16" fill="#00ff6a" opacity="0.57">
+    <text x="90.0" y="0" text-anchor="middle">
+      <tspan x="90.0" dy="0" fill="#00ff6a">0</tspan>
+      <tspan x="90.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="90.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="90.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="90.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="90.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="90.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="90.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="90.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="90.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="90.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="90.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="90.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="90.0" dy="16" fill="#c8ffe0">1</tspan>
+    </text>
+    <animateTransform attributeName="transform" type="translate" from="0,-224" to="0,282" dur="7.2s" begin="-1.17s" repeatCount="indefinite"/>
+  </g>
+  <g font-family="Consolas, Menlo, monospace" font-size="16" fill="#00ff6a" opacity="0.43">
+    <text x="110.0" y="0" text-anchor="middle">
+      <tspan x="110.0" dy="0" fill="#00ff6a">1</tspan>
+      <tspan x="110.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="110.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="110.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="110.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="110.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="110.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="110.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="110.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="110.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="110.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="110.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="110.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="110.0" dy="16" fill="#c8ffe0">0</tspan>
+    </text>
+    <animateTransform attributeName="transform" type="translate" from="0,-224" to="0,282" dur="5.13s" begin="-0.02s" repeatCount="indefinite"/>
+  </g>
+  <g font-family="Consolas, Menlo, monospace" font-size="16" fill="#00ff6a" opacity="0.5">
+    <text x="130.0" y="0" text-anchor="middle">
+      <tspan x="130.0" dy="0" fill="#00ff6a">1</tspan>
+      <tspan x="130.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="130.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="130.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="130.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="130.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="130.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="130.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="130.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="130.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="130.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="130.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="130.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="130.0" dy="16" fill="#c8ffe0">1</tspan>
+    </text>
+    <animateTransform attributeName="transform" type="translate" from="0,-224" to="0,282" dur="6.57s" begin="-2.78s" repeatCount="indefinite"/>
+  </g>
+  <g font-family="Consolas, Menlo, monospace" font-size="16" fill="#00ff6a" opacity="0.78">
+    <text x="150.0" y="0" text-anchor="middle">
+      <tspan x="150.0" dy="0" fill="#00ff6a">0</tspan>
+      <tspan x="150.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="150.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="150.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="150.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="150.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="150.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="150.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="150.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="150.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="150.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="150.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="150.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="150.0" dy="16" fill="#c8ffe0">0</tspan>
+    </text>
+    <animateTransform attributeName="transform" type="translate" from="0,-224" to="0,282" dur="6.93s" begin="-2.76s" repeatCount="indefinite"/>
+  </g>
+  <g font-family="Consolas, Menlo, monospace" font-size="16" fill="#00ff6a" opacity="0.42">
+    <text x="170.0" y="0" text-anchor="middle">
+      <tspan x="170.0" dy="0" fill="#00ff6a">1</tspan>
+      <tspan x="170.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="170.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="170.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="170.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="170.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="170.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="170.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="170.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="170.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="170.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="170.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="170.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="170.0" dy="16" fill="#c8ffe0">0</tspan>
+    </text>
+    <animateTransform attributeName="transform" type="translate" from="0,-224" to="0,282" dur="7.9s" begin="-2.8s" repeatCount="indefinite"/>
+  </g>
+  <g font-family="Consolas, Menlo, monospace" font-size="16" fill="#00ff6a" opacity="0.65">
+    <text x="190.0" y="0" text-anchor="middle">
+      <tspan x="190.0" dy="0" fill="#00ff6a">0</tspan>
+      <tspan x="190.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="190.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="190.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="190.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="190.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="190.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="190.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="190.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="190.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="190.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="190.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="190.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="190.0" dy="16" fill="#c8ffe0">0</tspan>
+    </text>
+    <animateTransform attributeName="transform" type="translate" from="0,-224" to="0,282" dur="3.79s" begin="-5.87s" repeatCount="indefinite"/>
+  </g>
+  <g font-family="Consolas, Menlo, monospace" font-size="16" fill="#00ff6a" opacity="0.67">
+    <text x="210.0" y="0" text-anchor="middle">
+      <tspan x="210.0" dy="0" fill="#00ff6a">0</tspan>
+      <tspan x="210.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="210.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="210.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="210.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="210.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="210.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="210.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="210.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="210.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="210.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="210.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="210.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="210.0" dy="16" fill="#c8ffe0">0</tspan>
+    </text>
+    <animateTransform attributeName="transform" type="translate" from="0,-224" to="0,282" dur="6.76s" begin="-0.71s" repeatCount="indefinite"/>
+  </g>
+  <g font-family="Consolas, Menlo, monospace" font-size="16" fill="#00ff6a" opacity="0.82">
+    <text x="230.0" y="0" text-anchor="middle">
+      <tspan x="230.0" dy="0" fill="#00ff6a">0</tspan>
+      <tspan x="230.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="230.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="230.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="230.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="230.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="230.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="230.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="230.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="230.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="230.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="230.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="230.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="230.0" dy="16" fill="#c8ffe0">0</tspan>
+    </text>
+    <animateTransform attributeName="transform" type="translate" from="0,-224" to="0,282" dur="5.31s" begin="-3.96s" repeatCount="indefinite"/>
+  </g>
+  <g font-family="Consolas, Menlo, monospace" font-size="16" fill="#00ff6a" opacity="0.36">
+    <text x="250.0" y="0" text-anchor="middle">
+      <tspan x="250.0" dy="0" fill="#00ff6a">0</tspan>
+      <tspan x="250.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="250.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="250.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="250.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="250.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="250.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="250.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="250.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="250.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="250.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="250.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="250.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="250.0" dy="16" fill="#c8ffe0">1</tspan>
+    </text>
+    <animateTransform attributeName="transform" type="translate" from="0,-224" to="0,282" dur="6.43s" begin="-2.76s" repeatCount="indefinite"/>
+  </g>
+  <g font-family="Consolas, Menlo, monospace" font-size="16" fill="#00ff6a" opacity="0.51">
+    <text x="270.0" y="0" text-anchor="middle">
+      <tspan x="270.0" dy="0" fill="#00ff6a">1</tspan>
+      <tspan x="270.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="270.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="270.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="270.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="270.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="270.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="270.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="270.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="270.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="270.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="270.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="270.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="270.0" dy="16" fill="#c8ffe0">0</tspan>
+    </text>
+    <animateTransform attributeName="transform" type="translate" from="0,-224" to="0,282" dur="7.67s" begin="-1.29s" repeatCount="indefinite"/>
+  </g>
+  <g font-family="Consolas, Menlo, monospace" font-size="16" fill="#00ff6a" opacity="0.39">
+    <text x="290.0" y="0" text-anchor="middle">
+      <tspan x="290.0" dy="0" fill="#00ff6a">0</tspan>
+      <tspan x="290.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="290.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="290.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="290.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="290.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="290.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="290.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="290.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="290.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="290.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="290.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="290.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="290.0" dy="16" fill="#c8ffe0">1</tspan>
+    </text>
+    <animateTransform attributeName="transform" type="translate" from="0,-224" to="0,282" dur="7.33s" begin="-5.59s" repeatCount="indefinite"/>
+  </g>
+  <g font-family="Consolas, Menlo, monospace" font-size="16" fill="#00ff6a" opacity="0.6">
+    <text x="310.0" y="0" text-anchor="middle">
+      <tspan x="310.0" dy="0" fill="#00ff6a">0</tspan>
+      <tspan x="310.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="310.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="310.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="310.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="310.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="310.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="310.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="310.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="310.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="310.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="310.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="310.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="310.0" dy="16" fill="#c8ffe0">0</tspan>
+    </text>
+    <animateTransform attributeName="transform" type="translate" from="0,-224" to="0,282" dur="4.09s" begin="-2.13s" repeatCount="indefinite"/>
+  </g>
+  <g font-family="Consolas, Menlo, monospace" font-size="16" fill="#00ff6a" opacity="0.52">
+    <text x="330.0" y="0" text-anchor="middle">
+      <tspan x="330.0" dy="0" fill="#00ff6a">0</tspan>
+      <tspan x="330.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="330.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="330.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="330.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="330.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="330.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="330.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="330.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="330.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="330.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="330.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="330.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="330.0" dy="16" fill="#c8ffe0">1</tspan>
+    </text>
+    <animateTransform attributeName="transform" type="translate" from="0,-224" to="0,282" dur="5.47s" begin="-2.74s" repeatCount="indefinite"/>
+  </g>
+  <g font-family="Consolas, Menlo, monospace" font-size="16" fill="#00ff6a" opacity="0.85">
+    <text x="350.0" y="0" text-anchor="middle">
+      <tspan x="350.0" dy="0" fill="#00ff6a">0</tspan>
+      <tspan x="350.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="350.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="350.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="350.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="350.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="350.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="350.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="350.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="350.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="350.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="350.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="350.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="350.0" dy="16" fill="#c8ffe0">0</tspan>
+    </text>
+    <animateTransform attributeName="transform" type="translate" from="0,-224" to="0,282" dur="5.77s" begin="-4.49s" repeatCount="indefinite"/>
+  </g>
+  <g font-family="Consolas, Menlo, monospace" font-size="16" fill="#00ff6a" opacity="0.85">
+    <text x="370.0" y="0" text-anchor="middle">
+      <tspan x="370.0" dy="0" fill="#00ff6a">0</tspan>
+      <tspan x="370.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="370.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="370.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="370.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="370.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="370.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="370.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="370.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="370.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="370.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="370.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="370.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="370.0" dy="16" fill="#c8ffe0">1</tspan>
+    </text>
+    <animateTransform attributeName="transform" type="translate" from="0,-224" to="0,282" dur="3.84s" begin="-0.7s" repeatCount="indefinite"/>
+  </g>
+  <g font-family="Consolas, Menlo, monospace" font-size="16" fill="#00ff6a" opacity="0.57">
+    <text x="390.0" y="0" text-anchor="middle">
+      <tspan x="390.0" dy="0" fill="#00ff6a">0</tspan>
+      <tspan x="390.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="390.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="390.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="390.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="390.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="390.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="390.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="390.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="390.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="390.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="390.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="390.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="390.0" dy="16" fill="#c8ffe0">1</tspan>
+    </text>
+    <animateTransform attributeName="transform" type="translate" from="0,-224" to="0,282" dur="7.01s" begin="-0.7s" repeatCount="indefinite"/>
+  </g>
+  <g font-family="Consolas, Menlo, monospace" font-size="16" fill="#00ff6a" opacity="0.47">
+    <text x="410.0" y="0" text-anchor="middle">
+      <tspan x="410.0" dy="0" fill="#00ff6a">1</tspan>
+      <tspan x="410.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="410.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="410.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="410.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="410.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="410.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="410.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="410.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="410.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="410.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="410.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="410.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="410.0" dy="16" fill="#c8ffe0">1</tspan>
+    </text>
+    <animateTransform attributeName="transform" type="translate" from="0,-224" to="0,282" dur="7.42s" begin="-0.85s" repeatCount="indefinite"/>
+  </g>
+  <g font-family="Consolas, Menlo, monospace" font-size="16" fill="#00ff6a" opacity="0.53">
+    <text x="430.0" y="0" text-anchor="middle">
+      <tspan x="430.0" dy="0" fill="#00ff6a">0</tspan>
+      <tspan x="430.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="430.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="430.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="430.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="430.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="430.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="430.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="430.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="430.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="430.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="430.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="430.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="430.0" dy="16" fill="#c8ffe0">0</tspan>
+    </text>
+    <animateTransform attributeName="transform" type="translate" from="0,-224" to="0,282" dur="6.56s" begin="-0.94s" repeatCount="indefinite"/>
+  </g>
+  <g font-family="Consolas, Menlo, monospace" font-size="16" fill="#00ff6a" opacity="0.35">
+    <text x="450.0" y="0" text-anchor="middle">
+      <tspan x="450.0" dy="0" fill="#00ff6a">0</tspan>
+      <tspan x="450.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="450.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="450.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="450.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="450.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="450.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="450.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="450.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="450.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="450.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="450.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="450.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="450.0" dy="16" fill="#c8ffe0">0</tspan>
+    </text>
+    <animateTransform attributeName="transform" type="translate" from="0,-224" to="0,282" dur="4.65s" begin="-1.75s" repeatCount="indefinite"/>
+  </g>
+  <g font-family="Consolas, Menlo, monospace" font-size="16" fill="#00ff6a" opacity="0.56">
+    <text x="470.0" y="0" text-anchor="middle">
+      <tspan x="470.0" dy="0" fill="#00ff6a">0</tspan>
+      <tspan x="470.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="470.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="470.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="470.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="470.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="470.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="470.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="470.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="470.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="470.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="470.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="470.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="470.0" dy="16" fill="#c8ffe0">1</tspan>
+    </text>
+    <animateTransform attributeName="transform" type="translate" from="0,-224" to="0,282" dur="4.36s" begin="-2.01s" repeatCount="indefinite"/>
+  </g>
+  <g font-family="Consolas, Menlo, monospace" font-size="16" fill="#00ff6a" opacity="0.75">
+    <text x="490.0" y="0" text-anchor="middle">
+      <tspan x="490.0" dy="0" fill="#00ff6a">0</tspan>
+      <tspan x="490.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="490.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="490.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="490.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="490.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="490.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="490.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="490.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="490.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="490.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="490.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="490.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="490.0" dy="16" fill="#c8ffe0">0</tspan>
+    </text>
+    <animateTransform attributeName="transform" type="translate" from="0,-224" to="0,282" dur="7.07s" begin="-0.24s" repeatCount="indefinite"/>
+  </g>
+  <g font-family="Consolas, Menlo, monospace" font-size="16" fill="#00ff6a" opacity="0.67">
+    <text x="510.0" y="0" text-anchor="middle">
+      <tspan x="510.0" dy="0" fill="#00ff6a">1</tspan>
+      <tspan x="510.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="510.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="510.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="510.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="510.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="510.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="510.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="510.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="510.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="510.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="510.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="510.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="510.0" dy="16" fill="#c8ffe0">0</tspan>
+    </text>
+    <animateTransform attributeName="transform" type="translate" from="0,-224" to="0,282" dur="5.55s" begin="-0.68s" repeatCount="indefinite"/>
+  </g>
+  <g font-family="Consolas, Menlo, monospace" font-size="16" fill="#00ff6a" opacity="0.72">
+    <text x="530.0" y="0" text-anchor="middle">
+      <tspan x="530.0" dy="0" fill="#00ff6a">1</tspan>
+      <tspan x="530.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="530.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="530.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="530.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="530.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="530.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="530.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="530.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="530.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="530.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="530.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="530.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="530.0" dy="16" fill="#c8ffe0">1</tspan>
+    </text>
+    <animateTransform attributeName="transform" type="translate" from="0,-224" to="0,282" dur="5.55s" begin="-1.19s" repeatCount="indefinite"/>
+  </g>
+  <g font-family="Consolas, Menlo, monospace" font-size="16" fill="#00ff6a" opacity="0.5">
+    <text x="550.0" y="0" text-anchor="middle">
+      <tspan x="550.0" dy="0" fill="#00ff6a">1</tspan>
+      <tspan x="550.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="550.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="550.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="550.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="550.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="550.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="550.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="550.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="550.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="550.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="550.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="550.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="550.0" dy="16" fill="#c8ffe0">1</tspan>
+    </text>
+    <animateTransform attributeName="transform" type="translate" from="0,-224" to="0,282" dur="3.85s" begin="-4.29s" repeatCount="indefinite"/>
+  </g>
+  <g font-family="Consolas, Menlo, monospace" font-size="16" fill="#00ff6a" opacity="0.56">
+    <text x="570.0" y="0" text-anchor="middle">
+      <tspan x="570.0" dy="0" fill="#00ff6a">0</tspan>
+      <tspan x="570.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="570.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="570.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="570.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="570.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="570.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="570.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="570.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="570.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="570.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="570.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="570.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="570.0" dy="16" fill="#c8ffe0">1</tspan>
+    </text>
+    <animateTransform attributeName="transform" type="translate" from="0,-224" to="0,282" dur="3.78s" begin="-1.0s" repeatCount="indefinite"/>
+  </g>
+  <g font-family="Consolas, Menlo, monospace" font-size="16" fill="#00ff6a" opacity="0.72">
+    <text x="590.0" y="0" text-anchor="middle">
+      <tspan x="590.0" dy="0" fill="#00ff6a">1</tspan>
+      <tspan x="590.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="590.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="590.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="590.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="590.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="590.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="590.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="590.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="590.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="590.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="590.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="590.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="590.0" dy="16" fill="#c8ffe0">1</tspan>
+    </text>
+    <animateTransform attributeName="transform" type="translate" from="0,-224" to="0,282" dur="3.63s" begin="-3.98s" repeatCount="indefinite"/>
+  </g>
+  <g font-family="Consolas, Menlo, monospace" font-size="16" fill="#00ff6a" opacity="0.53">
+    <text x="610.0" y="0" text-anchor="middle">
+      <tspan x="610.0" dy="0" fill="#00ff6a">1</tspan>
+      <tspan x="610.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="610.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="610.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="610.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="610.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="610.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="610.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="610.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="610.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="610.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="610.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="610.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="610.0" dy="16" fill="#c8ffe0">0</tspan>
+    </text>
+    <animateTransform attributeName="transform" type="translate" from="0,-224" to="0,282" dur="5.21s" begin="-4.73s" repeatCount="indefinite"/>
+  </g>
+  <g font-family="Consolas, Menlo, monospace" font-size="16" fill="#00ff6a" opacity="0.43">
+    <text x="630.0" y="0" text-anchor="middle">
+      <tspan x="630.0" dy="0" fill="#00ff6a">0</tspan>
+      <tspan x="630.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="630.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="630.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="630.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="630.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="630.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="630.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="630.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="630.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="630.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="630.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="630.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="630.0" dy="16" fill="#c8ffe0">1</tspan>
+    </text>
+    <animateTransform attributeName="transform" type="translate" from="0,-224" to="0,282" dur="4.4s" begin="-5.88s" repeatCount="indefinite"/>
+  </g>
+  <g font-family="Consolas, Menlo, monospace" font-size="16" fill="#00ff6a" opacity="0.56">
+    <text x="650.0" y="0" text-anchor="middle">
+      <tspan x="650.0" dy="0" fill="#00ff6a">0</tspan>
+      <tspan x="650.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="650.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="650.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="650.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="650.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="650.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="650.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="650.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="650.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="650.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="650.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="650.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="650.0" dy="16" fill="#c8ffe0">1</tspan>
+    </text>
+    <animateTransform attributeName="transform" type="translate" from="0,-224" to="0,282" dur="6.09s" begin="-0.55s" repeatCount="indefinite"/>
+  </g>
+  <g font-family="Consolas, Menlo, monospace" font-size="16" fill="#00ff6a" opacity="0.88">
+    <text x="670.0" y="0" text-anchor="middle">
+      <tspan x="670.0" dy="0" fill="#00ff6a">1</tspan>
+      <tspan x="670.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="670.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="670.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="670.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="670.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="670.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="670.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="670.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="670.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="670.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="670.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="670.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="670.0" dy="16" fill="#c8ffe0">1</tspan>
+    </text>
+    <animateTransform attributeName="transform" type="translate" from="0,-224" to="0,282" dur="7.2s" begin="-5.37s" repeatCount="indefinite"/>
+  </g>
+  <g font-family="Consolas, Menlo, monospace" font-size="16" fill="#00ff6a" opacity="0.69">
+    <text x="690.0" y="0" text-anchor="middle">
+      <tspan x="690.0" dy="0" fill="#00ff6a">1</tspan>
+      <tspan x="690.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="690.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="690.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="690.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="690.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="690.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="690.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="690.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="690.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="690.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="690.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="690.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="690.0" dy="16" fill="#c8ffe0">0</tspan>
+    </text>
+    <animateTransform attributeName="transform" type="translate" from="0,-224" to="0,282" dur="4.6s" begin="-3.21s" repeatCount="indefinite"/>
+  </g>
+  <g font-family="Consolas, Menlo, monospace" font-size="16" fill="#00ff6a" opacity="0.48">
+    <text x="710.0" y="0" text-anchor="middle">
+      <tspan x="710.0" dy="0" fill="#00ff6a">1</tspan>
+      <tspan x="710.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="710.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="710.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="710.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="710.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="710.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="710.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="710.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="710.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="710.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="710.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="710.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="710.0" dy="16" fill="#c8ffe0">1</tspan>
+    </text>
+    <animateTransform attributeName="transform" type="translate" from="0,-224" to="0,282" dur="5.82s" begin="-4.85s" repeatCount="indefinite"/>
+  </g>
+  <g font-family="Consolas, Menlo, monospace" font-size="16" fill="#00ff6a" opacity="0.58">
+    <text x="730.0" y="0" text-anchor="middle">
+      <tspan x="730.0" dy="0" fill="#00ff6a">1</tspan>
+      <tspan x="730.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="730.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="730.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="730.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="730.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="730.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="730.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="730.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="730.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="730.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="730.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="730.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="730.0" dy="16" fill="#c8ffe0">0</tspan>
+    </text>
+    <animateTransform attributeName="transform" type="translate" from="0,-224" to="0,282" dur="5.63s" begin="-2.81s" repeatCount="indefinite"/>
+  </g>
+  <g font-family="Consolas, Menlo, monospace" font-size="16" fill="#00ff6a" opacity="0.67">
+    <text x="750.0" y="0" text-anchor="middle">
+      <tspan x="750.0" dy="0" fill="#00ff6a">1</tspan>
+      <tspan x="750.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="750.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="750.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="750.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="750.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="750.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="750.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="750.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="750.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="750.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="750.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="750.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="750.0" dy="16" fill="#c8ffe0">1</tspan>
+    </text>
+    <animateTransform attributeName="transform" type="translate" from="0,-224" to="0,282" dur="6.82s" begin="-4.34s" repeatCount="indefinite"/>
+  </g>
+  <g font-family="Consolas, Menlo, monospace" font-size="16" fill="#00ff6a" opacity="0.83">
+    <text x="770.0" y="0" text-anchor="middle">
+      <tspan x="770.0" dy="0" fill="#00ff6a">1</tspan>
+      <tspan x="770.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="770.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="770.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="770.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="770.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="770.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="770.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="770.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="770.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="770.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="770.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="770.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="770.0" dy="16" fill="#c8ffe0">0</tspan>
+    </text>
+    <animateTransform attributeName="transform" type="translate" from="0,-224" to="0,282" dur="6.64s" begin="-5.24s" repeatCount="indefinite"/>
+  </g>
+  <g font-family="Consolas, Menlo, monospace" font-size="16" fill="#00ff6a" opacity="0.7">
+    <text x="790.0" y="0" text-anchor="middle">
+      <tspan x="790.0" dy="0" fill="#00ff6a">0</tspan>
+      <tspan x="790.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="790.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="790.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="790.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="790.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="790.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="790.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="790.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="790.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="790.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="790.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="790.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="790.0" dy="16" fill="#c8ffe0">1</tspan>
+    </text>
+    <animateTransform attributeName="transform" type="translate" from="0,-224" to="0,282" dur="5.3s" begin="-5.56s" repeatCount="indefinite"/>
+  </g>
+  <g font-family="Consolas, Menlo, monospace" font-size="16" fill="#00ff6a" opacity="0.69">
+    <text x="810.0" y="0" text-anchor="middle">
+      <tspan x="810.0" dy="0" fill="#00ff6a">0</tspan>
+      <tspan x="810.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="810.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="810.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="810.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="810.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="810.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="810.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="810.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="810.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="810.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="810.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="810.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="810.0" dy="16" fill="#c8ffe0">1</tspan>
+    </text>
+    <animateTransform attributeName="transform" type="translate" from="0,-224" to="0,282" dur="4.87s" begin="-2.27s" repeatCount="indefinite"/>
+  </g>
+  <g font-family="Consolas, Menlo, monospace" font-size="16" fill="#00ff6a" opacity="0.74">
+    <text x="830.0" y="0" text-anchor="middle">
+      <tspan x="830.0" dy="0" fill="#00ff6a">1</tspan>
+      <tspan x="830.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="830.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="830.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="830.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="830.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="830.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="830.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="830.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="830.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="830.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="830.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="830.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="830.0" dy="16" fill="#c8ffe0">0</tspan>
+    </text>
+    <animateTransform attributeName="transform" type="translate" from="0,-224" to="0,282" dur="4.81s" begin="-4.61s" repeatCount="indefinite"/>
+  </g>
+  <g font-family="Consolas, Menlo, monospace" font-size="16" fill="#00ff6a" opacity="0.8">
+    <text x="850.0" y="0" text-anchor="middle">
+      <tspan x="850.0" dy="0" fill="#00ff6a">1</tspan>
+      <tspan x="850.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="850.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="850.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="850.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="850.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="850.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="850.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="850.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="850.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="850.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="850.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="850.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="850.0" dy="16" fill="#c8ffe0">1</tspan>
+    </text>
+    <animateTransform attributeName="transform" type="translate" from="0,-224" to="0,282" dur="7.07s" begin="-2.43s" repeatCount="indefinite"/>
+  </g>
+  <g font-family="Consolas, Menlo, monospace" font-size="16" fill="#00ff6a" opacity="0.72">
+    <text x="870.0" y="0" text-anchor="middle">
+      <tspan x="870.0" dy="0" fill="#00ff6a">0</tspan>
+      <tspan x="870.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="870.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="870.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="870.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="870.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="870.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="870.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="870.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="870.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="870.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="870.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="870.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="870.0" dy="16" fill="#c8ffe0">1</tspan>
+    </text>
+    <animateTransform attributeName="transform" type="translate" from="0,-224" to="0,282" dur="3.62s" begin="-4.63s" repeatCount="indefinite"/>
+  </g>
+  <g font-family="Consolas, Menlo, monospace" font-size="16" fill="#00ff6a" opacity="0.82">
+    <text x="890.0" y="0" text-anchor="middle">
+      <tspan x="890.0" dy="0" fill="#00ff6a">1</tspan>
+      <tspan x="890.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="890.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="890.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="890.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="890.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="890.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="890.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="890.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="890.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="890.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="890.0" dy="16" fill="#00ff6a">0</tspan>
+      <tspan x="890.0" dy="16" fill="#00ff6a">1</tspan>
+      <tspan x="890.0" dy="16" fill="#c8ffe0">0</tspan>
+    </text>
+    <animateTransform attributeName="transform" type="translate" from="0,-224" to="0,282" dur="5.0s" begin="-1.98s" repeatCount="indefinite"/>
+  </g>
+
+    <rect x="0" y="0" width="900" height="250" fill="#020a04" opacity="0.28"/>
+
+    <text x="50%" y="46%" text-anchor="middle" font-family="Consolas, Menlo, monospace"
+          font-size="56" font-weight="bold" fill="#eafff2" filter="url(#textGlow)"
+          letter-spacing="4">
+      LEOHAMIL31
+      <animate attributeName="opacity" values="0.75;1;0.75" dur="3s" repeatCount="indefinite"/>
+    </text>
+
+    <text x="50%" y="62%" text-anchor="middle" font-family="Consolas, Menlo, monospace"
+          font-size="18" fill="#7dffbb" letter-spacing="3" opacity="0.85">
+      &lt; python | java | c++ | ia /&gt;
+    </text>
+
+    <rect x="4" y="4" width="892" height="242" rx="12" ry="12"
+          fill="none" stroke="#00ff88" stroke-opacity="0.35" stroke-width="2"/>
+  </g>
+</svg>
