@@ -57,7 +57,7 @@ class Leonardo:
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=leohamil31&theme=matrix&hide_border=true&background=0d1117" alt="streak stats"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=leohamil31&hide_border=true&background=0D1117&ring=00FF6A&fire=00FF6A&currStreakLabel=00FF6A&sideLabels=00FF6A&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=7DFFBB" alt="streak stats"/>
 </p>
 
 <p align="center">
@@ -69,7 +69,23 @@ class Leonardo:
 ### 🏆 Troféus
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=leohamil31&theme=matrix&no-frame=true&margin-w=10&row=1&column=6"/>
+  <img src="https://github-profile-trophy.vercel.app/?username=leohamil31&theme=algolia&no-frame=true&no-bg=false&margin-w=12&margin-h=12&column=4&row=2"/>
 </p>
 
+> 💡 Como a conta é nova, alguns troféus aparecem "bloqueados" (escuros) — eles vão sendo desbloqueados automaticamente conforme você usa mais o GitHub (mais commits, repositórios, estrelas, seguidores etc).
+
 ---
+
+### 🐍 Contribuições (Snake Game)
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/leohamil31/leohamil31/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/leohamil31/leohamil31/output/github-contribution-grid-snake.svg">
+  <img align="center" alt="cobrinha comendo contribuições" src="https://raw.githubusercontent.com/leohamil31/leohamil31/output/github-contribution-grid-snake.svg" width="95%"/>
+</picture>
+
+---
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/leohamil31/leohamil31/main/matrix-banner.svg" width="100%"/>
+</p>
