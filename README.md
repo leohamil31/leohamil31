@@ -72,8 +72,6 @@ class Leonardo:
   <img src="https://github-profile-trophy.vercel.app/?username=leohamil31&theme=onedark&no-frame=true&margin-w=12&margin-h=12&column=4&row=2"/>
 </p>
 
-> 💡 Como a conta é nova, alguns troféus aparecem escuros/bloqueados — eles se desbloqueiam sozinhos conforme você usa mais o GitHub (commits, repositórios, estrelas, seguidores etc). Se o card não carregar na primeira vez, dê um F5 — esse serviço às vezes demora alguns segundos na primeira geração.
-
 ---
 
 ### 🐍 Contribuições (Snake Game)
