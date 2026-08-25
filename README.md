@@ -52,12 +52,12 @@ class Leonardo:
 ### 📊 Estatísticas do GitHub
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=leohamil31&show_icons=true&theme=matrix&hide_border=true&count_private=true&bg_color=0d1117"/>
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=leohamil31&layout=compact&theme=matrix&hide_border=true&bg_color=0d1117"/>
+  <img height="165" src="https://github-stats-extended.vercel.app/api?username=leohamil31&show_icons=true&theme=matrix&hide_border=true&count_private=true&bg_color=0d1117"/>
+  <img height="165" src="https://github-stats-extended.vercel.app/api/top-langs/?username=leohamil31&layout=compact&theme=matrix&hide_border=true&bg_color=0d1117"/>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=leohamil31&hide_border=true&background=0D1117&ring=00FF6A&fire=00FF6A&currStreakLabel=00FF6A&sideLabels=00FF6A&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=7DFFBB" alt="streak stats"/>
+  <img src="https://streak-stats.demolab.com/?user=leohamil31&hide_border=true&background=0D1117&ring=00FF6A&fire=00FF6A&currStreakLabel=00FF6A&sideLabels=00FF6A&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=7DFFBB" alt="streak stats"/>
 </p>
 
 <p align="center">
@@ -69,10 +69,10 @@ class Leonardo:
 ### 🏆 Troféus
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=leohamil31&theme=algolia&no-frame=true&no-bg=false&margin-w=12&margin-h=12&column=4&row=2"/>
+  <img src="https://github-profile-trophy.vercel.app/?username=leohamil31&theme=onedark&no-frame=true&margin-w=12&margin-h=12&column=4&row=2"/>
 </p>
 
-> 💡 Como a conta é nova, alguns troféus aparecem "bloqueados" (escuros) — eles vão sendo desbloqueados automaticamente conforme você usa mais o GitHub (mais commits, repositórios, estrelas, seguidores etc).
+> 💡 Como a conta é nova, alguns troféus aparecem escuros/bloqueados — eles se desbloqueiam sozinhos conforme você usa mais o GitHub (commits, repositórios, estrelas, seguidores etc). Se o card não carregar na primeira vez, dê um F5 — esse serviço às vezes demora alguns segundos na primeira geração.
 
 ---
 
@@ -83,9 +83,3 @@ class Leonardo:
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/leohamil31/leohamil31/output/github-contribution-grid-snake.svg">
   <img align="center" alt="cobrinha comendo contribuições" src="https://raw.githubusercontent.com/leohamil31/leohamil31/output/github-contribution-grid-snake.svg" width="95%"/>
 </picture>
-
----
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/leohamil31/leohamil31/main/matrix-banner.svg" width="100%"/>
-</p>
